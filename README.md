@@ -1,6 +1,6 @@
 # Nerdownia
 
-Nerdownia created by Patryk 'UltiPro' Wójtowicz using PHP, JavaScript and CSS.
+Nerdownia created by Patryk 'UltiPro' Wójtowicz using PHP, JavaScript, HTML and CSS.
 
 ### This is the first project I ever developed.
 
