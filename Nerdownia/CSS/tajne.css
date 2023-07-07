@@ -4,39 +4,45 @@
 	margin: 0 auto;
 	text-align: center;
 }
+
 .odsylaczeblokowe {
 	width: 400px;
-	height : 250px;
+	height: 250px;
 	border: 3px solid white;
 	border-radius: 15px;
 	background: black;
 	transition: all .6s ease-in-out;
 }
+
 .odsylaczeblokowe:hover {
 	border: 3px solid black;
 	transform: scale(1.1);
 	transform: rotate(2deg);
 }
+
 .odsylacze {
 	display: block;
 	position: relative;
 	margin: 0 auto;
 	margin-bottom: 50px;
 	width: 400px;
-	height : 250px;
+	height: 250px;
 	text-decoration: none;
 }
+
 .tekstblokow {
 	position: relative;
 	color: #a6a6a6;
 	top: 80px;
 	font-size: 50px;
 }
+
 .wylserwerdiv {
 	position: relative;
 	top: 50px;
 	font-size: 25px;
 }
+
 .wylserwer {
 	position: relative;
 	width: 25%;
@@ -50,27 +56,20 @@
 	z-index: 900;
 	transition: background 1.5s ease-in-out;
 }
-.wylserwer:hover{
+
+.wylserwer:hover {
 	background-color: red;
 }
 
 /* tablety średnie kompy */
-@media (min-width: 992px) and (max-width: 1300px) {
-
-}
+@media (min-width: 992px) and (max-width: 1300px) {}
 
 /* Mój telefon */
 /* tablety małe kompy */
-@media (max-width: 991px) {
-
-}
+@media (max-width: 991px) {}
 
 /* tablety i telefony */
-@media  (max-width: 775px) {
-
-}
+@media (max-width: 775px) {}
 
 /* mniejsze */
-@media (max-width: 550px) {
-
-}
+@media (max-width: 550px) {}

@@ -1,7 +1,8 @@
 body {
 	margin: 0;
-	padding: 0;	
+	padding: 0;
 }
+
 .statycznetlo {
 	z-index: 1;
 	position: fixed;
@@ -10,10 +11,12 @@ body {
 	height: 100%;
 	width: 100%;
 }
+
 .szerokosctla {
 	width: 100%;
 	height: 100%;
 }
+
 .blad {
 	position: relative;
 	top: 180px;
@@ -27,12 +30,14 @@ body {
 	font-size: 25px;
 	background-color: rgb(140, 140, 140, 0.8);
 }
+
 .error {
 	position: relative;
 	top: 50px;
 	color: red;
 	text-shadow: black 0.1em 0.1em 0.2em;
 }
+
 #powrot {
 	position: relative;
 	top: 90px;
@@ -41,42 +46,41 @@ body {
 }
 
 /* 1440 down */
-@media (max-width: 1440px) {
-
-}
+@media (max-width: 1440px) {}
 
 /* tablety średnie kompy */
 @media (min-width: 992px) and (max-width: 1300px) {
-.blad {
-	width: 40%;
-}
+	.blad {
+		width: 40%;
+	}
 }
 
 /* Mój telefon */
 /* tablety małe kompy */
-@media (max-width: 991px) {	
-.blad {
-	width: 42%;
-}
-.error {
-	position: relative;
-	top: 50px;
-	font-size: 0.9em;
-}
+@media (max-width: 991px) {
+	.blad {
+		width: 42%;
+	}
+
+	.error {
+		position: relative;
+		top: 50px;
+		font-size: 0.9em;
+	}
 }
 
 /* tablety i telefony */
-@media  (max-width: 775px) {
-.blad {
-	width: 44%;
-	font-size: 23px;
-}
+@media (max-width: 775px) {
+	.blad {
+		width: 44%;
+		font-size: 23px;
+	}
 }
 
 /* mniejsze */
 @media (max-width: 550px) {
-.blad {
-	width: 46%;
-	font-size: 22px;
-}
+	.blad {
+		width: 46%;
+		font-size: 22px;
+	}
 }

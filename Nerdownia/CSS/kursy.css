@@ -1,6 +1,7 @@
 .lewy {
 	width: 75%;
 }
+
 .kurs {
 	margin: 0;
 	padding: 0;
@@ -15,6 +16,7 @@
 	transition: all .7s linear;
 	border: 1px solid white;
 }
+
 .kurs:hover {
 	width: 200px;
 	height: 205px;
@@ -24,6 +26,7 @@
 	transform: rotateZ(15deg);
 	border: 2px solid black;
 }
+
 .kursbrakprem {
 	margin: 0;
 	padding: 0;
@@ -36,11 +39,13 @@
 	margin-bottom: 45px;
 	margin-right: 45px;
 }
+
 .kursbrakpremtekst {
 	position: relative;
 	top: 40px;
 	font-size: 0.7em;
 }
+
 .kursyt {
 	margin: 0;
 	padding: 0;
@@ -54,44 +59,37 @@
 	transition: all .7s linear;
 	border: 1px solid black;
 }
+
 .kursyt:hover {
 	border-radius: 35px;
 	transform: rotateZ(15deg);
 	border: 1px solid white;
 	color: #006bb3;
 }
+
 .kursa {
 	display: inline-block;
-	text-decoration: none;	
+	text-decoration: none;
 	margin-bottom: 45px;
 	margin-right: 45px;
 }
+
 .rodzajkursu {
 	margin-bottom: 45px;
 }
 
 /* 1470 down */
-@media (max-width: 1470px) {
-
-}
+@media (max-width: 1470px) {}
 
 /* tablety średnie kompy */
-@media (min-width: 992px) and (max-width: 1300px) {
-
-}
+@media (min-width: 992px) and (max-width: 1300px) {}
 
 /* Mój telefon */
 /* tablety małe kompy */
-@media (max-width: 991px) {	
-
-}
+@media (max-width: 991px) {}
 
 /* tablety i telefony */
-@media  (max-width: 775px) {
-
-}
+@media (max-width: 775px) {}
 
 /* mniejsze */
-@media (max-width: 550px) {
-
-}
+@media (max-width: 550px) {}

@@ -1,22 +1,27 @@
-body{
+body {
 	margin: 0 !important;
 	padding: 0;
 	background-color: black;
 }
+
 body::-webkit-scrollbar {
 	width: 5px;
 	height: 5px;
 }
+
 body::-webkit-scrollbar-track {
 	background: black;
 }
+
 body::-webkit-scrollbar-thumb {
 	background: linear-gradient(black, grey, black);
 	border-radius: 15px;
 }
+
 body::-webkit-scrollbar-thumb:hover {
 	background: linear-gradient(black, lightgrey, black);
 }
+
 ol {
 	padding: 0;
 	margin: 0;
@@ -26,39 +31,46 @@ ol {
 	line-height: 200%;
 	text-transform: uppercase;
 }
+
 ol a {
 	color: #fff;
 	text-decoration: none;
 	display: block;
 	text-shadow: white 0.1em 0.1em 0.2em;
 }
-ol > li {
+
+ol>li {
 	float: left;
 	width: 16.67%;
 	height: 40px;
 	border-left: 1px dotted white;
 	margin-left: -1px;
 }
-ol > li:first-child {
-	border-left: none;	
+
+ol>li:first-child {
+	border-left: none;
 }
-ol > li:hover {
+
+ol>li:hover {
 	background-color: black;
 }
-ol > li:hover > a {
+
+ol>li:hover>a {
 	color: gold;
 	font-size: 22px;
 }
-ol > li > ul {
+
+ol>li>ul {
 	list-style-type: none;
 	padding: 0;
-	margin: 0;	
+	margin: 0;
 	height: 40px;
 	display: none;
 	color: #e60000;
 	text-transform: none;
 }
-ol > li > ul > li {
+
+ol>li>ul>li {
 	z-index: 100;
 	position: relative;
 	border-radius: 5px;
@@ -67,19 +79,24 @@ ol > li > ul > li {
 	border-top: 1px solid grey;
 	border-bottom: 1px solid grey;
 }
-ol > li > ul > li > a {
+
+ol>li>ul>li>a {
 	color: #fff;
 	text-shadow: black 0.1em 0.1em 0.2em;
 }
-ol > li > ul > li:hover {
+
+ol>li>ul>li:hover {
 	background-color: black;
 }
-ol > li > ul > li:hover > a {
+
+ol>li>ul>li:hover>a {
 	color: #ff471a;
 }
-ol > li:hover > ul {
+
+ol>li:hover>ul {
 	display: block;
 }
+
 .tlonapisu {
 	background-color: black;
 	border-radius: 10px;
@@ -89,49 +106,64 @@ ol > li:hover > ul {
 	padding-right: 10px;
 	opacity: .8;
 }
+
 #ts {
 	background-image: URL("../PICTURES/MENU/ts.jpg");
 }
+
 #minecraft {
-	background-image: URL("../PICTURES/MENU/minecraft.jpg");	
+	background-image: URL("../PICTURES/MENU/minecraft.jpg");
 }
+
 #csgo {
 	background-image: URL("../PICTURES/MENU/csgo.jpg");
 }
+
 #cs16 {
 	background-image: URL("../PICTURES/MENU/cs16.jpg");
 }
+
 #scp {
 	background-image: URL("../PICTURES/MENU/scp.jpg");
 }
+
 #wisielec {
 	background-image: URL("../PICTURES/MENU/wisielec.jpg");
 }
+
 #dwazeroczteryosiem {
 	background-image: URL("../PICTURES/MENU/2048.jpg");
 }
+
 #cplus {
 	background-image: URL("../PICTURES/MENU/cplus.jpg");
 }
+
 #htmlcss {
 	background-image: URL("../PICTURES/MENU/htmlcss.jpg");
 }
+
 #jsphp {
 	background-image: URL("../PICTURES/MENU/jsphp.jpg");
 }
+
 #garrysmod {
 	background-image: URL("../PICTURES/MENU/garrysmod.jpg");
 }
+
 #tajne {
 	color: red;
 }
+
 #pamiec {
 	background-image: URL("../PICTURES/MENU/pamiec.jpg");
 }
+
 .strona {
 	height: 100%;
 	width: 100%;
 }
+
 .menugora {
 	height: 125px;
 	width: 100%;
@@ -141,6 +173,7 @@ ol > li:hover > ul {
 	font-family: Comic Sans MS;
 	z-index: 999;
 }
+
 .tytul {
 	position: relative;
 	width: 100%;
@@ -152,6 +185,7 @@ ol > li:hover > ul {
 	color: red;
 	transition: all 1s ease-in-out;
 }
+
 .odnosniki {
 	position: absolute;
 	top: 128px;
@@ -161,10 +195,12 @@ ol > li:hover > ul {
 	border-top: 1px soild red;
 	border-bottom: 1px soild red;
 }
+
 .odnosnikimenu {
 	text-decoration: none;
 	color: red;
 }
+
 .menudulopacity1 {
 	position: fixed;
 	bottom: 0px;
@@ -174,6 +210,7 @@ ol > li:hover > ul {
 	opacity: .9;
 	z-index: 200;
 }
+
 .menudulopacity2 {
 	position: fixed;
 	bottom: 5px;
@@ -183,6 +220,7 @@ ol > li:hover > ul {
 	opacity: .8;
 	z-index: 200;
 }
+
 .menudulopacity3 {
 	position: fixed;
 	bottom: 10px;
@@ -192,6 +230,7 @@ ol > li:hover > ul {
 	opacity: .7;
 	z-index: 200;
 }
+
 .menudulopacity4 {
 	position: fixed;
 	bottom: 15px;
@@ -201,6 +240,7 @@ ol > li:hover > ul {
 	opacity: .6;
 	z-index: 200;
 }
+
 .menudulopacity5 {
 	position: fixed;
 	bottom: 20px;
@@ -210,6 +250,7 @@ ol > li:hover > ul {
 	opacity: .5;
 	z-index: 200;
 }
+
 .menudulopacity6 {
 	position: fixed;
 	bottom: 25px;
@@ -219,6 +260,7 @@ ol > li:hover > ul {
 	opacity: .4;
 	z-index: 200;
 }
+
 .menudulopacity7 {
 	position: fixed;
 	bottom: 30px;
@@ -228,6 +270,7 @@ ol > li:hover > ul {
 	opacity: .3;
 	z-index: 200;
 }
+
 .menudulopacity8 {
 	position: fixed;
 	bottom: 35px;
@@ -237,6 +280,7 @@ ol > li:hover > ul {
 	opacity: .2;
 	z-index: 200;
 }
+
 .menudulopacity9 {
 	position: fixed;
 	bottom: 40px;
@@ -246,6 +290,7 @@ ol > li:hover > ul {
 	opacity: .1;
 	z-index: 200;
 }
+
 .tresc {
 	position: relative;
 	top: 200px;
@@ -258,6 +303,7 @@ ol > li:hover > ul {
 	padding-bottom: 200px;
 	z-index: 2;
 }
+
 .zegar {
 	position: absolute;
 	right: 5px;
@@ -266,6 +312,7 @@ ol > li:hover > ul {
 	font-family: Lucida Console;
 	display: inline-block;
 }
+
 .oddzialka {
 	position: fixed;
 	width: 100%;
@@ -274,6 +321,7 @@ ol > li:hover > ul {
 	background-color: #666666;
 	top: 125px;
 }
+
 .oddzialka2 {
 	position: fixed;
 	width: 100%;
@@ -283,6 +331,7 @@ ol > li:hover > ul {
 	top: 168px;
 	z-index: 50;
 }
+
 .lewy {
 	position: relative;
 	float: left;
@@ -293,6 +342,7 @@ ol > li:hover > ul {
 	font-size: 25px;
 	text-shadow: black 0.1em 0.1em 0.2em;
 }
+
 .prawy {
 	position: relative;
 	float: left;
@@ -303,6 +353,7 @@ ol > li:hover > ul {
 	font-size: 25px;
 	text-shadow: black 0.1em 0.1em 0.2em;
 }
+
 .scrollgora {
 	width: 48px;
 	height: 48px;
@@ -315,19 +366,22 @@ ol > li:hover > ul {
 	display: none;
 	transition: all 1s linear;
 }
+
 .scrollgora:hover {
 	background-image: URL("../PICTURES/MENU/scrollgora2.png");
 }
+
 .loginbox {
 	position: absolute;
 	width: 18%;
-	top:5px;
+	top: 5px;
 	left: 1%;
 	height: 115px;
 	background-color: rgb(102, 102, 102, 0.7);
 	border-radius: 5px;
 	z-index: 201;
 }
+
 .log {
 	position: relative;
 	top: 20px;
@@ -342,9 +396,11 @@ ol > li:hover > ul {
 	color: white;
 	background-color: grey;
 }
+
 .log:hover {
 	background-color: #333333;
 }
+
 .rej {
 	position: relative;
 	top: 30px;
@@ -359,14 +415,17 @@ ol > li:hover > ul {
 	color: white;
 	background-color: grey;
 }
+
 .rej:hover {
-	background-color: #333333;	
+	background-color: #333333;
 }
+
 .tekstloged {
 	position: relative;
 	top: 10px;
 	left: 10px;
 }
+
 .wyloguj {
 	position: absolute;
 	display: block;
@@ -380,9 +439,11 @@ ol > li:hover > ul {
 	border-radius: 5px;
 	transition: all .4s linear;
 }
+
 .wyloguj:hover {
 	color: white;
 }
+
 .ustawienia {
 	position: absolute;
 	display: block;
@@ -396,12 +457,15 @@ ol > li:hover > ul {
 	border-radius: 5px;
 	transition: all .4s linear;
 }
+
 .ustawienia:hover {
 	color: white;
 }
+
 .colorloginu {
 	color: red;
 }
+
 #slider {
 	z-index: 1;
 	position: fixed;
@@ -411,10 +475,12 @@ ol > li:hover > ul {
 	height: 100%;
 	width: 100%;
 }
+
 #slajdyrozmiar {
 	height: 100%;
 	width: 100%;
 }
+
 .statycznetlo {
 	z-index: 1;
 	position: fixed;
@@ -424,16 +490,19 @@ ol > li:hover > ul {
 	height: 100%;
 	width: 100%;
 }
+
 .szerokosctla {
 	width: 100%;
 	height: 100%;
 }
+
 .info {
 	position: fixed;
 	top: 35%;
 	width: 35%;
 	margin-bottom: 150px;
 }
+
 .fieldset {
 	width: 70%;
 	text-align: left;
@@ -441,29 +510,34 @@ ol > li:hover > ul {
 	text-shadow: black 0.1em 0.1em 0.2em;
 	border-radius: 15px;
 	background-color: rgb(0, 0, 0, 0.5);
-	-webkit-box-shadow: 2px 2px 15px 6px rgba(0,0,0,1);
-	-moz-box-shadow: 2px 2px 15px 6px rgba(0,0,0,1);
-	box-shadow: 2px 2px 15px 6px rgba(0,0,0,1);
+	-webkit-box-shadow: 2px 2px 15px 6px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 2px 2px 15px 6px rgba(0, 0, 0, 1);
+	box-shadow: 2px 2px 15px 6px rgba(0, 0, 0, 1);
 }
+
 .infofieldset {
 	font-size: 25px;
 	border-radius: 25px;
 	background-color: rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 2px 2px 15px 6px rgba(0,0,0,1);
-	-moz-box-shadow: 2px 2px 15px 6px rgba(0,0,0,1);
-	box-shadow: 2px 2px 15px 6px rgba(0,0,0,1);
+	-webkit-box-shadow: 2px 2px 15px 6px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 2px 2px 15px 6px rgba(0, 0, 0, 1);
+	box-shadow: 2px 2px 15px 6px rgba(0, 0, 0, 1);
 }
+
 .infotext {
 	font-size: 18px;
 }
+
 .odsylacze {
 	text-decoration: none;
 	color: #cc3300;
 	font-weight: bold;
 }
+
 .uruchamianietekst {
 	text-align: center;
 }
+
 .wlacz {
 	position: relative;
 	display: block;
@@ -481,10 +555,12 @@ ol > li:hover > ul {
 	color: white;
 	transition: all 1.5s ease-in-out;
 }
+
 .wlacz:hover {
 	background-color: rgb(0, 255, 0, 0.2);
 	color: #cccccc;
 }
+
 .wylacz {
 	position: relative;
 	display: block;
@@ -501,10 +577,12 @@ ol > li:hover > ul {
 	color: white;
 	transition: all 1.5s ease-in-out;
 }
+
 .wylacz:hover {
 	background-color: rgb(255, 0, 0, 0.2);
 	color: #cccccc;
 }
+
 .clearboth {
 	clear: both;
 }
